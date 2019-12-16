@@ -1,0 +1,10 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Sync Files",
+        "type": "shell",
+        "command": "rsync -avr && rsync  asalhani@dev-linux:/home/asalhani/ansible-demo-excersises/ ."
+      }
+    ]
+  } 

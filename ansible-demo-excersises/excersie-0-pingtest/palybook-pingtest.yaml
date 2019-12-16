@@ -1,0 +1,6 @@
+-
+  name: check conn. using ping tool
+  hosts: all
+  tasks:
+    - name: ping test
+      ping:
